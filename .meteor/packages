@@ -1,13 +1,13 @@
 meteor-base@1.0.4
-ecmascript@0.6.1
+ecmascript@0.7.3
 es5-shim@4.6.15
-check@1.2.4
-tracker@1.1.1
+check@1.2.5
+tracker@1.1.3
 
 # standard libraries
 jquery@1.11.10
 underscore@1.0.10
-less@2.7.8
+less@2.7.9
 twbs:bootstrap
 
 # ui
@@ -18,9 +18,7 @@ aldeed:template-extension
 percolate:momentum
 
 # data
-mongo@1.1.14
-aldeed:simple-schema
-aldeed:collection2
+mongo@1.1.17
 dburles:collection-helpers
 reywood:publish-composite
 mdg:validated-method
@@ -36,32 +34,30 @@ arillo:flow-router-helpers
 zimme:active-route
 
 # i18n
-tap:i18n
 
 # accounts
-accounts-password@1.3.3
 #useraccounts:unstyled
 useraccounts:bootstrap
 useraccounts:flow-routing
 softwarerero:accounts-t9n
 alanning:roles
-#service-configuration
-#accounts-ui
+service-configuration
+accounts-ui
 
 # mobile
-crosswalk@1.7.0
+crosswalk@1.7.1
 mobile-experience@1.0.4
 chriswessels:hammer
 
 # production
 juliancwirko:postcss@1.0.0-beta.11
-standard-minifier-js@1.2.1
-ddp-rate-limiter@1.0.6
+standard-minifier-js@2.0.0
+ddp-rate-limiter@1.0.7
 app-prod-security
 
 # rest apis
-simple:rest-accounts-password
-simple:rest
+#simple:rest-accounts-password
+#simple:rest
 
 # testing
 factory
@@ -70,5 +66,9 @@ stub-collections
 xolvio:cleaner
 dispatch:mocha-phantomjs
 practicalmeteor:mocha@2.1.1-rc.1
+
 msavin:mongol
-shell-server@0.2.1
+shell-server@0.2.3
+aldeed:collection2-core@2.0.0
+accounts-password@1.3.6
+aldeed:schema-index

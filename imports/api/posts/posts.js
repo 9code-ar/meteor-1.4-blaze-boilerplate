@@ -1,5 +1,5 @@
 import { Mongo } from 'meteor/mongo';
-import { SimpleSchema } from 'meteor/aldeed:simple-schema';
+import SimpleSchema from 'simpl-schema';
 
 class PostsCollection extends Mongo.Collection {
   insert(doc, callback) {
@@ -50,7 +50,7 @@ Posts.schema = new SimpleSchema({
     optional: true,
   },
   like: {
-    type: [String],
+    type: Array,
     optional: true,
   },
   type: {
